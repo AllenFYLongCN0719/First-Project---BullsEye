@@ -12,6 +12,9 @@
 		238A56241FB6EBD900E78314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238A56221FB6EBD900E78314 /* Main.storyboard */; };
 		238A56261FB6EBD900E78314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238A56251FB6EBD900E78314 /* Assets.xcassets */; };
 		238A56291FB6EBD900E78314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238A56271FB6EBD900E78314 /* LaunchScreen.storyboard */; };
+		2392A3D31FBB238100AD0268 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2392A3D21FBB238100AD0268 /* AboutViewController.swift */; };
+		2392A3D91FBB396600AD0268 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 2392A3D81FBB396500AD0268 /* BullsEye.html */; };
+		239488EF1FBC7DC600FC299F /* 高橋諒,MARU - The Other Side of the Wall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 239488EE1FBC7DC600FC299F /* 高橋諒,MARU - The Other Side of the Wall.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		238A56251FB6EBD900E78314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		238A56281FB6EBD900E78314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		238A562A1FB6EBD900E78314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2392A3D21FBB238100AD0268 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		2392A3D81FBB396500AD0268 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		239488EE1FBC7DC600FC299F /* 高橋諒,MARU - The Other Side of the Wall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "高橋諒,MARU - The Other Side of the Wall.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				238A561E1FB6EBD900E78314 /* AppDelegate.swift */,
 				238A56201FB6EBD900E78314 /* ViewController.swift */,
 				238A56221FB6EBD900E78314 /* Main.storyboard */,
+				2392A3D21FBB238100AD0268 /* AboutViewController.swift */,
 				238A56251FB6EBD900E78314 /* Assets.xcassets */,
+				2392A3D81FBB396500AD0268 /* BullsEye.html */,
 				238A56271FB6EBD900E78314 /* LaunchScreen.storyboard */,
 				238A562A1FB6EBD900E78314 /* Info.plist */,
+				239488EE1FBC7DC600FC299F /* 高橋諒,MARU - The Other Side of the Wall.mp3 */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -126,6 +135,8 @@
 				238A56291FB6EBD900E78314 /* LaunchScreen.storyboard in Resources */,
 				238A56261FB6EBD900E78314 /* Assets.xcassets in Resources */,
 				238A56241FB6EBD900E78314 /* Main.storyboard in Resources */,
+				239488EF1FBC7DC600FC299F /* 高橋諒,MARU - The Other Side of the Wall.mp3 in Resources */,
+				2392A3D91FBB396600AD0268 /* BullsEye.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2392A3D31FBB238100AD0268 /* AboutViewController.swift in Sources */,
 				238A56211FB6EBD900E78314 /* ViewController.swift in Sources */,
 				238A561F1FB6EBD900E78314 /* AppDelegate.swift in Sources */,
 			);
@@ -274,11 +286,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TPWHUUNKM;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allencode.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +304,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9TPWHUUNKM;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allencode.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
